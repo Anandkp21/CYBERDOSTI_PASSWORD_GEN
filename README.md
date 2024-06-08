@@ -45,7 +45,7 @@ Suggested Password: @7S0p9$
 
 ## Functions
 
-### `suggest_password`
+### suggest_password
 
 Generates a password based on the provided keyword and user preferences.
 
@@ -60,7 +60,7 @@ Generates a password based on the provided keyword and user preferences.
 
 - `str`: A generated password.
 
-### `main`
+### main
 
 Handles user input and calls the `suggest_gen` function to generate and display the password.
 
