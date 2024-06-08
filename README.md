@@ -1,5 +1,5 @@
 
-# Password Suggestion Program
+# Password Generator Program
 
 This program generates a secure password based on a keyword provided by the user. The user can choose whether to include uppercase letters, numbers, and symbols in the generated password. The password is randomized and modified to ensure security and meet the criteria specified by the user.
 
@@ -15,12 +15,12 @@ This program generates a secure password based on a keyword provided by the user
 
 1. **Navigate to the project directory**:
     ```bash
-    cd password-suggestion-program
+    cd password-gen-program
     ```
 
 2. **Run the Password Suggestion Program**:
     ```bash
-    python password_suggestion.py
+    python password_gen.py
     ```
 
 3. **Follow the prompts**:
@@ -40,7 +40,7 @@ Suggested Password: @7S0p9$
 
 ## Files
 
-- `password_suggestion.py`: Contains the main script and functions to generate the password.
+- `password_gen.py`: Contains the main script and functions to generate the password.
 - `README.md`: This file, providing an overview and instructions for the program.
 
 ## Functions
@@ -62,14 +62,14 @@ Generates a password based on the provided keyword and user preferences.
 
 ### `main`
 
-Handles user input and calls the `suggest_password` function to generate and display the password.
+Handles user input and calls the `suggest_gen` function to generate and display the password.
 
 ## Running the Program
 
 To run the program, use the following command:
 
 ```bash
-python password_suggestion.py
+python password_gen.py
 ```
 
 Follow the on-screen prompts to generate your password.
